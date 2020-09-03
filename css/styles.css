@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto';
+}
+
+.container-fluid {
+    padding: 0 15% 0;
+    overflow: visible;
+}
+
+.card {
+    border: none;
+}
+
+/* Header section */
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+/* Menu section  */
+
+.navbar-nav {
+    width: 50%;
+}
+
+.nav-item {
+    padding: 0 1% 0;
+}
+
+/* Carousel section */
+
+.carousel .carousel-item {
+    height: 500px;
+}
+  
+.carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+}
+
+/* News section */
+
+#news {
+    position: relative;
+}
+
+/* Highlights section */
+
+#highlights {
+    position: relative;
+    
+}
